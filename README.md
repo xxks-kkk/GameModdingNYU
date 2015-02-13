@@ -1,7 +1,11 @@
 # GameModdingNYU
 
-## Week 01 Dream Bedroom
+INTERMEDIATE GAME DEVELOPMENT (STUDIO) (GAMES-UY 121) 
+GAME DEVELOPMENT STUDIO: MODDING (OART-UT 1610) 
+INSTRUCTOR: Robert Yang, office hours by appointment 
 
-MAKE: in Hammer, make your "dream bedroom" -- it can be as decrepit or decayed or realistic as you want, just as long as it has the apparent affordances of a bedroom... what makes a bedroom seem like a bedroom?
-- you must include at least 5 different prop models
-- no fullbright allowed, you must have lighting and shadows
+TU/TH 9:30 AM – 12:15 PM 
+2 Metrotech (MAGNET) ROOM #825
+
+course website: http://steamcommunity.com/groups/nyumodding_sp2015
+
