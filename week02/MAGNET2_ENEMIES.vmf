@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "41"
+	"mapversion" "48"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "41"
+	"mapversion" "48"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33,7 +33,7 @@ world
 		{
 			"id" "6619"
 			"plane" "(-2112 -1088 0) (-2112 3712 0) (1472 3712 0)"
-			"material" "METAL/CITADEL_TILEFLOOR016A"
+			"material" "PROPS/CARPETFLOOR008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -44,7 +44,7 @@ world
 		{
 			"id" "6620"
 			"plane" "(-2112 3712 -64) (-2112 -1088 -64) (1472 -1088 -64)"
-			"material" "METAL/CITADEL_TILEFLOOR016A"
+			"material" "PROPS/CARPETFLOOR008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -55,7 +55,7 @@ world
 		{
 			"id" "6621"
 			"plane" "(-2112 -1088 -64) (-2112 3712 -64) (-2112 3712 0)"
-			"material" "METAL/CITADEL_TILEFLOOR016A"
+			"material" "PROPS/CARPETFLOOR008A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -66,7 +66,7 @@ world
 		{
 			"id" "6622"
 			"plane" "(1472 3712 -64) (1472 -1088 -64) (1472 -1088 0)"
-			"material" "METAL/CITADEL_TILEFLOOR016A"
+			"material" "PROPS/CARPETFLOOR008A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -77,7 +77,7 @@ world
 		{
 			"id" "6623"
 			"plane" "(-2112 3712 -64) (1472 3712 -64) (1472 3712 0)"
-			"material" "METAL/CITADEL_TILEFLOOR016A"
+			"material" "PROPS/CARPETFLOOR008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -88,7 +88,7 @@ world
 		{
 			"id" "6624"
 			"plane" "(1472 -1088 -64) (-2112 -1088 -64) (-2112 -1088 0)"
-			"material" "METAL/CITADEL_TILEFLOOR016A"
+			"material" "PROPS/CARPETFLOOR008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -36783,6 +36783,36 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	group
+	{
+		"id" "5977"
+		editor
+		{
+			"color" "186 179 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5987"
+		editor
+		{
+			"color" "186 179 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5997"
+		editor
+		{
+			"color" "186 179 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -44542,26 +44572,6 @@ entity
 }
 entity
 {
-	"id" "4846"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_pistol"
-	"angles" "0 0 0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "1216 3392 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3500 8000]"
-	}
-}
-entity
-{
 	"id" "4848"
 	"classname" "npc_metropolice"
 	"additionalequipment" "weapon_pistol"
@@ -44638,26 +44648,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 10000]"
-	}
-}
-entity
-{
-	"id" "4856"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_pistol"
-	"angles" "0 0 0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"origin" "1280 3328 0"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3500 10500]"
 	}
 }
 entity
@@ -46786,13 +46776,266 @@ entity
 		"logicalpos" "[4500 -14768]"
 	}
 }
+entity
+{
+	"id" "5935"
+	"classname" "item_healthcharger"
+	"angles" "0 267 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "-320 3712 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5937"
+	"classname" "item_healthcharger"
+	"angles" "0 271.5 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "-128 3712 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "5941"
+	"classname" "item_ammo_smg1"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "-320 3200 64"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5966"
+	"classname" "weapon_smg1"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "1024 1728 64"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "5970"
+	"classname" "weapon_smg1"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "768 640 64"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "5978"
+	"classname" "light"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "256 3320.5 128"
+	editor
+	{
+		"color" "186 179 0"
+		"groupid" "5977"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "5983"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_c17/light_cagelight02_on.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "256 3320.5 192"
+	editor
+	{
+		"color" "186 179 0"
+		"groupid" "5977"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5988"
+	"classname" "light"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-256 2424.5 128"
+	editor
+	{
+		"color" "186 179 0"
+		"groupid" "5987"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "5993"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_c17/light_cagelight02_on.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-256 2424.5 192"
+	editor
+	{
+		"color" "186 179 0"
+		"groupid" "5987"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5998"
+	"classname" "light"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "0 2424.5 128"
+	editor
+	{
+		"color" "186 179 0"
+		"groupid" "5997"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "6003"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_c17/light_cagelight02_on.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 2424.5 192"
+	editor
+	{
+		"color" "186 179 0"
+		"groupid" "5997"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "6007"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 0 0"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "516"
+	"waitingtorappel" "No"
+	"origin" "-1664 -64 0"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "6010"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 0 0"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "516"
+	"waitingtorappel" "No"
+	"origin" "-1600 192 0"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1246.26 3249.23 100.438]"
-		"look" "[1245.55 3249.48 99.7769]"
+		"position" "[-1636.7 914.834 193.37]"
+		"look" "[-1636.38 915.776 193.256]"
 	}
 }
 cordon
