@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "319"
+	"mapversion" "320"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "319"
+	"mapversion" "320"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15653,29 +15653,6 @@ entity
 }
 entity
 {
-	"id" "9591"
-	"classname" "npc_sniper"
-	"angles" "0 231 0"
-	"beambrightness" "100"
-	"PaintInterval" "1"
-	"PaintIntervalVariance" "0.75"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"shielddistance" "64"
-	"shieldradius" "48"
-	"spawnflags" "516"
-	"origin" "1900 -1440 320"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
 	"id" "9597"
 	"classname" "npc_sniper"
 	"angles" "0 0 0"
@@ -16201,52 +16178,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -15768]"
-	}
-}
-entity
-{
-	"id" "11502"
-	"classname" "npc_sniper"
-	"angles" "0 79.5 0"
-	"beambrightness" "100"
-	"PaintInterval" "1"
-	"PaintIntervalVariance" "0.75"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"shielddistance" "64"
-	"shieldradius" "48"
-	"spawnflags" "516"
-	"origin" "3015.22 -879.412 497"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -15268]"
-	}
-}
-entity
-{
-	"id" "11506"
-	"classname" "npc_sniper"
-	"angles" "0 107.5 0"
-	"beambrightness" "100"
-	"PaintInterval" "1"
-	"PaintIntervalVariance" "0.75"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"shielddistance" "64"
-	"shieldradius" "48"
-	"spawnflags" "516"
-	"origin" "3088 -876 497"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -15268]"
 	}
 }
 entity
@@ -17368,6 +17299,66 @@ entity
 		"logicalpos" "[0 4000]"
 	}
 }
+entity
+{
+	"id" "14133"
+	"classname" "npc_metropolice"
+	"additionalequipment" "weapon_pistol"
+	"angles" "0 229.5 0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "516"
+	"waitingtorappel" "No"
+	"origin" "3100.29 -904.094 497"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "14135"
+	"classname" "npc_metropolice"
+	"additionalequipment" "weapon_pistol"
+	"angles" "0 314 0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "516"
+	"waitingtorappel" "No"
+	"origin" "2999.68 -907.905 497"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "14141"
+	"classname" "npc_metropolice"
+	"additionalequipment" "weapon_pistol"
+	"angles" "0 216.5 0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "516"
+	"waitingtorappel" "No"
+	"origin" "1950.34 -1468 320"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
 cameras
 {
 	"activecamera" "2"
@@ -17383,8 +17374,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[2932.58 -804.433 602.866]"
-		"look" "[3299.99 -807.055 522.084]"
+		"position" "[2081.68 -1591.63 405.524]"
+		"look" "[1727.45 -1518.86 301.83]"
 	}
 }
 cordon
