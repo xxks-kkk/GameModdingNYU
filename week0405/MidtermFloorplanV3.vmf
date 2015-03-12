@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "321"
+	"mapversion" "324"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "321"
+	"mapversion" "324"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13593,7 +13593,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1843.33 -1431.29 308"
+	"origin" "1843.33 -1363.29 308"
 	editor
 	{
 		"color" "245 218 0"
@@ -13607,14 +13607,14 @@ entity
 {
 	"id" "7530"
 	"classname" "point_spotlight"
-	"angles" "40.4668 269.5 -180"
+	"angles" "40.4668 269.5 180"
 	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "247 240 159"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "40"
-	"origin" "1844.69 -1435.56 304"
+	"origin" "1844.69 -1367.56 304"
 	editor
 	{
 		"color" "245 218 0"
@@ -14778,7 +14778,7 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"spawnflags" "516"
+	"spawnflags" "8708"
 	"targetname" "harry"
 	"waitingtorappel" "No"
 	"origin" "2644 -2136 28"
@@ -14916,7 +14916,7 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"spawnflags" "516"
+	"spawnflags" "8708"
 	"targetname" "harry3"
 	"waitingtorappel" "No"
 	"origin" "2712 -1948 29.6316"
@@ -14937,7 +14937,7 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"spawnflags" "516"
+	"spawnflags" "8708"
 	"targetname" "harry2"
 	"waitingtorappel" "No"
 	"origin" "2720 -2064 29.6316"
@@ -14958,7 +14958,7 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"spawnflags" "516"
+	"spawnflags" "8708"
 	"targetname" "harry1"
 	"waitingtorappel" "No"
 	"origin" "2712 -2012 29.6316"
@@ -15091,7 +15091,7 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"spawnflags" "516"
+	"spawnflags" "8708"
 	"targetname" "harry4"
 	"waitingtorappel" "No"
 	"origin" "2820 -2140 32"
@@ -15664,8 +15664,8 @@ entity
 	"rendercolor" "255 255 255"
 	"shielddistance" "64"
 	"shieldradius" "48"
-	"spawnflags" "516"
-	"origin" "2328 -1432 316"
+	"spawnflags" "66052"
+	"origin" "2424 -1200 760"
 	editor
 	{
 		"color" "0 200 200"
@@ -15687,8 +15687,8 @@ entity
 	"rendercolor" "255 255 255"
 	"shielddistance" "64"
 	"shieldradius" "48"
-	"spawnflags" "516"
-	"origin" "2340 -1540 320"
+	"spawnflags" "66052"
+	"origin" "2472 -1268 760"
 	editor
 	{
 		"color" "0 200 200"
@@ -15805,174 +15805,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1500]"
-	}
-}
-entity
-{
-	"id" "10958"
-	"classname" "info_node"
-	"nodeid" "9"
-	"origin" "2262.35 -1394.32 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 2000]"
-	}
-}
-entity
-{
-	"id" "10960"
-	"classname" "info_node"
-	"nodeid" "10"
-	"origin" "2276.14 -1448.65 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 2500]"
-	}
-}
-entity
-{
-	"id" "10962"
-	"classname" "info_node"
-	"nodeid" "11"
-	"origin" "2275.31 -1505.08 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 3000]"
-	}
-}
-entity
-{
-	"id" "10964"
-	"classname" "info_node"
-	"nodeid" "12"
-	"origin" "2237.14 -1545.75 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 3500]"
-	}
-}
-entity
-{
-	"id" "10966"
-	"classname" "info_node"
-	"nodeid" "13"
-	"origin" "2203.52 -1500.21 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 4000]"
-	}
-}
-entity
-{
-	"id" "10968"
-	"classname" "info_node"
-	"nodeid" "14"
-	"origin" "2215.38 -1411.35 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 4500]"
-	}
-}
-entity
-{
-	"id" "10970"
-	"classname" "info_node"
-	"nodeid" "15"
-	"origin" "2199.2 -1451.78 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 5000]"
-	}
-}
-entity
-{
-	"id" "10972"
-	"classname" "info_node"
-	"nodeid" "16"
-	"origin" "2321.54 -1553.44 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 5500]"
-	}
-}
-entity
-{
-	"id" "10974"
-	"classname" "info_node"
-	"nodeid" "17"
-	"origin" "2328.18 -1480.29 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 6000]"
-	}
-}
-entity
-{
-	"id" "10976"
-	"classname" "info_node"
-	"nodeid" "18"
-	"origin" "2186.34 -1546.8 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 6500]"
-	}
-}
-entity
-{
-	"id" "10978"
-	"classname" "info_node"
-	"nodeid" "19"
-	"origin" "2337.77 -1378.45 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 7000]"
-	}
-}
-entity
-{
-	"id" "10980"
-	"classname" "info_node"
-	"nodeid" "20"
-	"origin" "2328.19 -1438.36 315.948"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 7500]"
 	}
 }
 entity
@@ -17348,7 +17180,7 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"spawnflags" "516"
+	"spawnflags" "8964"
 	"waitingtorappel" "No"
 	"origin" "1950.34 -1468 320"
 	editor
@@ -17417,6 +17249,46 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "14459"
+	"classname" "npc_metropolice"
+	"additionalequipment" "weapon_pistol"
+	"angles" "0 322.5 0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "8964"
+	"waitingtorappel" "No"
+	"origin" "2312 -1432 320"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "14461"
+	"classname" "npc_metropolice"
+	"additionalequipment" "weapon_pistol"
+	"angles" "0 280.5 0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "8964"
+	"waitingtorappel" "No"
+	"origin" "2312 -1544 320"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
 cameras
 {
 	"activecamera" "2"
@@ -17432,8 +17304,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[3049.67 -2123.94 164.792]"
-		"look" "[3415.04 -2098.46 78.8875]"
+		"position" "[1840.82 -1564.19 377.864]"
+		"look" "[1840.88 -1238.39 189.764]"
 	}
 }
 cordon
