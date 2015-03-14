@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "391"
+	"mapversion" "392"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "391"
+	"mapversion" "392"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -20353,30 +20353,6 @@ entity
 }
 entity
 {
-	"id" "23114"
-	"classname" "npc_helicopter"
-	"angles" "0 0 0"
-	"GracePeriod" "2.0"
-	"InitialSpeed" "100"
-	"noncombat" "No"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"sleepstate" "3"
-	"spawnflags" "2070"
-	"target" "path0"
-	"targetname" "heli"
-	"origin" "2172.92 -1015.05 858.688"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
 	"id" "23124"
 	"classname" "path_track"
 	"angles" "0 0 0"
@@ -20646,8 +20622,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[2988.96 -402.915 648.245]"
-		"look" "[3007.37 -406.295 619.644]"
+		"position" "[2802.5 -564.16 1092.01]"
+		"look" "[2780.81 -543.504 1075.54]"
 	}
 }
 cordon
