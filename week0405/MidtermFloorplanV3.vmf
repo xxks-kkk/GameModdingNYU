@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "412"
+	"mapversion" "415"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "412"
+	"mapversion" "415"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -21118,11 +21118,11 @@ entity
 	"id" "24433"
 	"classname" "npc_cscanner"
 	"angles" "0 0 0"
-	"NeverInspectPlayers" "1"
+	"NeverInspectPlayers" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"ShouldInspect" "0"
+	"ShouldInspect" "1"
 	"spawnflags" "2052"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
@@ -21177,7 +21177,8 @@ entity
 {
 	"id" "24653"
 	"classname" "ai_relationship"
-	"disposition" "3"
+	"disposition" "1"
+	"spawnflags" "0"
 	"StartActive" "1"
 	"subject" "scanner"
 	"target" "!player"
@@ -21977,8 +21978,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[1805.39 -1475.75 624.099]"
-		"look" "[1807.39 -1425.23 611.116]"
+		"position" "[2534.64 -1738.12 320.271]"
+		"look" "[2507.65 -1695.15 307.996]"
 	}
 }
 cordon
