@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "454"
+	"mapversion" "455"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "454"
+	"mapversion" "455"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3182,8 +3182,8 @@ world
 		{
 			"id" "1449"
 			"plane" "(3160 -1424 120) (3160 -1952 120) (3160 -1952 128)"
-			"material" "DEV/DEV_MEASUREWALL01A"
-			"uaxis" "[0 1 0 -484.619] 0.25"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_WALL003A"
+			"uaxis" "[0 1 0 -485] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -13458,7 +13458,7 @@ world
 		{
 			"id" "4687"
 			"plane" "(2867.37 -1408 69.5742) (2867.37 -1408 28.6328) (3161.72 -1408 28.6328)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_WALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -13700,7 +13700,7 @@ world
 		{
 			"id" "4704"
 			"plane" "(3147.71 -1840 236) (3147.71 -1840 124) (3161.72 -1840 124)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_WALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -13744,7 +13744,7 @@ world
 		{
 			"id" "4713"
 			"plane" "(3147.71 -1408 124) (3147.71 -1408 69.5742) (3161.72 -1408 69.5742)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_WALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -13854,7 +13854,7 @@ world
 		{
 			"id" "4716"
 			"plane" "(3147.71 -1840 124) (3147.71 -1792 124) (3161.72 -1792 124)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_WALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -13898,7 +13898,7 @@ world
 		{
 			"id" "4725"
 			"plane" "(3147.71 -1408 236) (3147.71 -1408 124) (3161.72 -1408 124)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_WALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -13942,7 +13942,7 @@ world
 		{
 			"id" "4721"
 			"plane" "(3161.72 -1792 236) (3161.72 -1792 124) (3147.71 -1792 124)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_WALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -14151,7 +14151,7 @@ world
 		{
 			"id" "4747"
 			"plane" "(3161.72 -1840 236) (3161.72 -1792 236) (3147.71 -1792 236)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_WALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -20311,6 +20311,190 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "36216"
+	"classname" "prop_dynamic"
+	"angles" "34.6957 319.829 -139.845"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2514.12 -759.787 744"
+	editor
+	{
+		"color" "245 218 0"
+		"groupid" "36215"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "36220"
+	"classname" "point_spotlight"
+	"angles" "40.4668 312 -180"
+	"HDRColorScale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "247 240 159"
+	"spawnflags" "1"
+	"spotlightlength" "500"
+	"spotlightwidth" "40"
+	"origin" "2518.01 -762.016 740"
+	editor
+	{
+		"color" "245 218 0"
+		"groupid" "36215"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "36279"
+	"classname" "prop_dynamic"
+	"angles" "34.6957 139.329 -139.845"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3569.03 -426.382 744"
+	editor
+	{
+		"color" "245 218 0"
+		"groupid" "36278"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "36283"
+	"classname" "point_spotlight"
+	"angles" "40.4668 131.5 -180"
+	"HDRColorScale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "247 240 159"
+	"spawnflags" "1"
+	"spotlightlength" "500"
+	"spotlightwidth" "40"
+	"origin" "3565.16 -424.119 740"
+	editor
+	{
+		"color" "245 218 0"
+		"groupid" "36278"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "36448"
+	"classname" "prop_dynamic"
+	"angles" "81.9349 348.361 -138.638"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2611.37 -2423.51 233.094"
+	editor
+	{
+		"color" "245 218 0"
+		"groupid" "36447"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "36452"
+	"classname" "point_spotlight"
+	"angles" "83.877 276.425 114.467"
+	"HDRColorScale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "247 240 159"
+	"spawnflags" "1"
+	"spotlightlength" "500"
+	"spotlightwidth" "40"
+	"origin" "2611.6 -2422.72 227.147"
+	editor
+	{
+		"color" "245 218 0"
+		"groupid" "36447"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "36455"
+	"classname" "prop_dynamic"
+	"angles" "34.6957 74.329 -139.845"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2594.47 -2424.36 232"
+	editor
+	{
+		"color" "245 218 0"
+		"groupid" "36454"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "36459"
+	"classname" "point_spotlight"
+	"angles" "40.4668 66.5 180"
+	"HDRColorScale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "247 240 159"
+	"spawnflags" "1"
+	"spotlightlength" "500"
+	"spotlightwidth" "40"
+	"origin" "2594.88 -2419.9 228"
+	editor
+	{
+		"color" "245 218 0"
+		"groupid" "36454"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
 	}
 }
 entity
@@ -26924,98 +27108,6 @@ entity
 }
 entity
 {
-	"id" "36216"
-	"classname" "prop_dynamic"
-	"angles" "34.6957 319.829 -139.845"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
-	"modelscale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2514.12 -759.787 744"
-	editor
-	{
-		"color" "245 218 0"
-		"groupid" "36215"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "36220"
-	"classname" "point_spotlight"
-	"angles" "40.4668 312 -180"
-	"HDRColorScale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "247 240 159"
-	"spawnflags" "1"
-	"spotlightlength" "500"
-	"spotlightwidth" "40"
-	"origin" "2518.01 -762.016 740"
-	editor
-	{
-		"color" "245 218 0"
-		"groupid" "36215"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "36279"
-	"classname" "prop_dynamic"
-	"angles" "34.6957 139.329 -139.845"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
-	"modelscale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3569.03 -426.382 744"
-	editor
-	{
-		"color" "245 218 0"
-		"groupid" "36278"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "36283"
-	"classname" "point_spotlight"
-	"angles" "40.4668 131.5 -180"
-	"HDRColorScale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "247 240 159"
-	"spawnflags" "1"
-	"spotlightlength" "500"
-	"spotlightwidth" "40"
-	"origin" "3565.16 -424.119 740"
-	editor
-	{
-		"color" "245 218 0"
-		"groupid" "36278"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
 	"id" "36292"
 	"classname" "infodecal"
 	"angles" "0 0 0"
@@ -27117,98 +27209,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12000]"
-	}
-}
-entity
-{
-	"id" "36448"
-	"classname" "prop_dynamic"
-	"angles" "81.9349 348.361 -138.638"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
-	"modelscale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2611.37 -2423.51 233.094"
-	editor
-	{
-		"color" "245 218 0"
-		"groupid" "36447"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "36452"
-	"classname" "point_spotlight"
-	"angles" "83.877 276.425 114.467"
-	"HDRColorScale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "247 240 159"
-	"spawnflags" "1"
-	"spotlightlength" "500"
-	"spotlightwidth" "40"
-	"origin" "2611.6 -2422.72 227.147"
-	editor
-	{
-		"color" "245 218 0"
-		"groupid" "36447"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "36455"
-	"classname" "prop_dynamic"
-	"angles" "34.6957 74.329 -139.845"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
-	"modelscale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2594.47 -2424.36 232"
-	editor
-	{
-		"color" "245 218 0"
-		"groupid" "36454"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "36459"
-	"classname" "point_spotlight"
-	"angles" "40.4668 66.5 180"
-	"HDRColorScale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "247 240 159"
-	"spawnflags" "1"
-	"spotlightlength" "500"
-	"spotlightwidth" "40"
-	"origin" "2594.88 -2419.9 228"
-	editor
-	{
-		"color" "245 218 0"
-		"groupid" "36454"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
 	}
 }
 entity
@@ -27316,8 +27316,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[2530.12 -2398 123.498]"
-		"look" "[2508.98 -2427.61 140.93]"
+		"position" "[2795.22 -2012.51 215.568]"
+		"look" "[2761.64 -2017.28 193.714]"
 	}
 }
 cordon
