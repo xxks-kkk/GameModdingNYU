@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "1"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,20 +20,20 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "8"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 	solid
 	{
-		"id" "7"
+		"id" "41"
 		side
 		{
-			"id" "12"
-			"plane" "(-896 640 512) (-384 640 512) (-384 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "84"
+			"plane" "(-1028 516 516) (-508 516 516) (-508 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -42,9 +42,9 @@ world
 		}
 		side
 		{
-			"id" "11"
-			"plane" "(-896 640 512) (-896 128 512) (-896 128 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "83"
+			"plane" "(-1028 516 516) (-1028 -4 516) (-1028 -4 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -53,9 +53,9 @@ world
 		}
 		side
 		{
-			"id" "10"
-			"plane" "(-384 640 0) (-384 128 0) (-384 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "82"
+			"plane" "(-508 516 -4) (-508 -4 -4) (-508 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -64,9 +64,9 @@ world
 		}
 		side
 		{
-			"id" "9"
-			"plane" "(-384 640 512) (-896 640 512) (-896 640 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "81"
+			"plane" "(-508 516 516) (-1028 516 516) (-1028 516 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -75,9 +75,9 @@ world
 		}
 		side
 		{
-			"id" "8"
-			"plane" "(-384 128 0) (-896 128 0) (-896 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "80"
+			"plane" "(-508 -4 -4) (-1028 -4 -4) (-1028 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -86,9 +86,9 @@ world
 		}
 		side
 		{
-			"id" "7"
-			"plane" "(-388 132 508) (-388 636 508) (-892 636 508)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "79"
+			"plane" "(-512 0 512) (-512 512 512) (-1024 512 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -98,19 +98,19 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "19"
+			"groupid" "53"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	solid
 	{
-		"id" "9"
+		"id" "43"
 		side
 		{
-			"id" "18"
-			"plane" "(-896 128 0) (-384 128 0) (-384 640 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "90"
+			"plane" "(-1028 -4 -4) (-508 -4 -4) (-508 516 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -119,9 +119,9 @@ world
 		}
 		side
 		{
-			"id" "17"
-			"plane" "(-896 640 512) (-896 128 512) (-896 128 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "89"
+			"plane" "(-1028 516 516) (-1028 -4 516) (-1028 -4 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -130,9 +130,9 @@ world
 		}
 		side
 		{
-			"id" "16"
-			"plane" "(-384 640 0) (-384 128 0) (-384 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "88"
+			"plane" "(-508 516 -4) (-508 -4 -4) (-508 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -141,9 +141,9 @@ world
 		}
 		side
 		{
-			"id" "15"
-			"plane" "(-384 640 512) (-896 640 512) (-896 640 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "87"
+			"plane" "(-508 516 516) (-1028 516 516) (-1028 516 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -152,9 +152,9 @@ world
 		}
 		side
 		{
-			"id" "14"
-			"plane" "(-384 128 0) (-896 128 0) (-896 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "86"
+			"plane" "(-508 -4 -4) (-1028 -4 -4) (-1028 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -163,9 +163,9 @@ world
 		}
 		side
 		{
-			"id" "13"
-			"plane" "(-388 636 4) (-388 132 4) (-892 132 4)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "85"
+			"plane" "(-512 512 0) (-512 0 0) (-1024 0 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -175,19 +175,19 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "19"
+			"groupid" "53"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	solid
 	{
-		"id" "11"
+		"id" "45"
 		side
 		{
-			"id" "24"
-			"plane" "(-896 640 512) (-896 128 512) (-896 128 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "96"
+			"plane" "(-1028 516 516) (-1028 -4 516) (-1028 -4 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -196,9 +196,9 @@ world
 		}
 		side
 		{
-			"id" "23"
-			"plane" "(-384 640 512) (-896 640 512) (-896 640 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "95"
+			"plane" "(-508 516 516) (-1028 516 516) (-1028 516 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -207,9 +207,9 @@ world
 		}
 		side
 		{
-			"id" "22"
-			"plane" "(-384 128 0) (-896 128 0) (-896 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "94"
+			"plane" "(-508 -4 -4) (-1028 -4 -4) (-1028 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -218,9 +218,9 @@ world
 		}
 		side
 		{
-			"id" "21"
-			"plane" "(-892 636 508) (-388 636 508) (-388 132 508)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "93"
+			"plane" "(-1024 512 512) (-512 512 512) (-512 0 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -229,9 +229,9 @@ world
 		}
 		side
 		{
-			"id" "20"
-			"plane" "(-892 132 4) (-388 132 4) (-388 636 4)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "92"
+			"plane" "(-1024 0 0) (-512 0 0) (-512 512 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -240,9 +240,9 @@ world
 		}
 		side
 		{
-			"id" "19"
-			"plane" "(-892 132 4) (-892 132 508) (-892 636 508)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "91"
+			"plane" "(-1024 0 0) (-1024 0 512) (-1024 512 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -252,19 +252,19 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "19"
+			"groupid" "53"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	solid
 	{
-		"id" "13"
+		"id" "47"
 		side
 		{
-			"id" "30"
-			"plane" "(-384 640 0) (-384 128 0) (-384 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "102"
+			"plane" "(-508 516 -4) (-508 -4 -4) (-508 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -273,9 +273,9 @@ world
 		}
 		side
 		{
-			"id" "29"
-			"plane" "(-384 640 512) (-896 640 512) (-896 640 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "101"
+			"plane" "(-508 516 516) (-1028 516 516) (-1028 516 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -284,9 +284,9 @@ world
 		}
 		side
 		{
-			"id" "28"
-			"plane" "(-384 128 0) (-896 128 0) (-896 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "100"
+			"plane" "(-508 -4 -4) (-1028 -4 -4) (-1028 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -295,9 +295,9 @@ world
 		}
 		side
 		{
-			"id" "27"
-			"plane" "(-892 636 508) (-388 636 508) (-388 132 508)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "99"
+			"plane" "(-1024 512 512) (-512 512 512) (-512 0 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -306,9 +306,9 @@ world
 		}
 		side
 		{
-			"id" "26"
-			"plane" "(-892 132 4) (-388 132 4) (-388 636 4)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "98"
+			"plane" "(-1024 0 0) (-512 0 0) (-512 512 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -317,9 +317,9 @@ world
 		}
 		side
 		{
-			"id" "25"
-			"plane" "(-388 132 508) (-388 132 4) (-388 636 4)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "97"
+			"plane" "(-512 0 512) (-512 0 0) (-512 512 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -329,19 +329,19 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "19"
+			"groupid" "53"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	solid
 	{
-		"id" "15"
+		"id" "49"
 		side
 		{
-			"id" "36"
-			"plane" "(-384 640 512) (-896 640 512) (-896 640 0)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "108"
+			"plane" "(-508 516 516) (-1028 516 516) (-1028 516 -4)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -350,20 +350,9 @@ world
 		}
 		side
 		{
-			"id" "35"
-			"plane" "(-892 636 508) (-388 636 508) (-388 132 508)"
-			"material" "/STONEWALL_EGYPT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "34"
-			"plane" "(-892 132 4) (-388 132 4) (-388 636 4)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "107"
+			"plane" "(-1024 512 512) (-512 512 512) (-512 0 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -372,33 +361,44 @@ world
 		}
 		side
 		{
-			"id" "33"
-			"plane" "(-892 636 508) (-892 132 508) (-892 132 4)"
-			"material" "/STONEWALL_EGYPT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "32"
-			"plane" "(-388 636 4) (-388 132 4) (-388 132 508)"
-			"material" "/STONEWALL_EGYPT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "31"
-			"plane" "(-892 636 4) (-892 636 508) (-388 636 508)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "106"
+			"plane" "(-1024 0 0) (-512 0 0) (-512 512 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "105"
+			"plane" "(-1024 512 512) (-1024 0 512) (-1024 0 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "104"
+			"plane" "(-512 512 0) (-512 0 0) (-512 0 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "103"
+			"plane" "(-1024 512 0) (-1024 512 512) (-512 512 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -406,19 +406,19 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "19"
+			"groupid" "53"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	solid
 	{
-		"id" "17"
+		"id" "51"
 		side
 		{
-			"id" "42"
-			"plane" "(-384 128 0) (-896 128 0) (-896 128 512)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "114"
+			"plane" "(-508 -4 -4) (-1028 -4 -4) (-1028 -4 516)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -427,20 +427,9 @@ world
 		}
 		side
 		{
-			"id" "41"
-			"plane" "(-892 636 508) (-388 636 508) (-388 132 508)"
-			"material" "/STONEWALL_EGYPT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "40"
-			"plane" "(-892 132 4) (-388 132 4) (-388 636 4)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "113"
+			"plane" "(-1024 512 512) (-512 512 512) (-512 0 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -449,9 +438,20 @@ world
 		}
 		side
 		{
-			"id" "39"
-			"plane" "(-892 636 508) (-892 132 508) (-892 132 4)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "112"
+			"plane" "(-1024 0 0) (-512 0 0) (-512 512 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "111"
+			"plane" "(-1024 512 512) (-1024 0 512) (-1024 0 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -460,9 +460,9 @@ world
 		}
 		side
 		{
-			"id" "38"
-			"plane" "(-388 636 4) (-388 132 4) (-388 132 508)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "110"
+			"plane" "(-512 512 0) (-512 0 0) (-512 0 512)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -471,9 +471,9 @@ world
 		}
 		side
 		{
-			"id" "37"
-			"plane" "(-892 132 508) (-892 132 4) (-388 132 4)"
-			"material" "/STONEWALL_EGYPT"
+			"id" "109"
+			"plane" "(-1024 0 512) (-1024 0 0) (-512 0 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -483,14 +483,242 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "19"
+			"groupid" "53"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "63"
+		side
+		{
+			"id" "139"
+			"plane" "(-1028 128 256) (-508 128 256) (-508 0 256)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "140"
+			"plane" "(-1028 0 0) (-508 0 0) (-508 128 0)"
+			"material" "/CONCRETEWALL_TRASH"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "141"
+			"plane" "(-1028 128 256) (-1028 0 256) (-1028 0 0)"
+			"material" "/CONCRETEWALL_TRASH"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "142"
+			"plane" "(-508 128 0) (-508 0 0) (-508 0 256)"
+			"material" "/CONCRETEWALL_TRASH"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "143"
+			"plane" "(-508 128 256) (-1028 128 256) (-1028 128 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "144"
+			"plane" "(-508 0 0) (-1028 0 0) (-1028 0 256)"
+			"material" "/CONCRETEWALL_TRASH"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 242 135"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "64"
+		side
+		{
+			"id" "156"
+			"plane" "(-1028 512 256) (-508 512 256) (-508 384 256)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "155"
+			"plane" "(-1028 384 0) (-508 384 0) (-508 512 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "154"
+			"plane" "(-1028 512 256) (-1028 384 256) (-1028 384 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "153"
+			"plane" "(-508 512 0) (-508 384 0) (-508 384 256)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "152"
+			"plane" "(-508 512 256) (-1028 512 256) (-1028 512 0)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "151"
+			"plane" "(-508 384 0) (-1028 384 0) (-1028 384 256)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 242 135"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "65"
+		side
+		{
+			"id" "157"
+			"plane" "(-1028 384 192) (-508 384 192) (-508 128 192)"
+			"material" "NATURE/WATER_CANALS_WATER_CLEAR"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "158"
+			"plane" "(-1028 128 0) (-508 128 0) (-508 384 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "159"
+			"plane" "(-1028 384 192) (-1028 128 192) (-1028 128 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "160"
+			"plane" "(-508 384 0) (-508 128 0) (-508 128 192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "161"
+			"plane" "(-508 384 192) (-1028 384 192) (-1028 384 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "162"
+			"plane" "(-508 128 0) (-1028 128 0) (-1028 128 192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 190 235"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	group
 	{
-		"id" "19"
+		"id" "53"
 		editor
 		{
 			"color" "220 220 220"
@@ -504,7 +732,7 @@ entity
 	"id" "22"
 	"classname" "info_player_start"
 	"angles" "0 0 0"
-	"origin" "-633.508 385.487 5"
+	"origin" "-832 448 256"
 	editor
 	{
 		"color" "0 255 0"
@@ -515,11 +743,16 @@ entity
 }
 cameras
 {
-	"activecamera" "0"
+	"activecamera" "1"
 	camera
 	{
-		"position" "[-692.376 249.989 100.704]"
-		"look" "[-638.021 439.57 79.0378]"
+		"position" "[-891.803 205.095 192.319]"
+		"look" "[-756.125 334.318 127.07]"
+	}
+	camera
+	{
+		"position" "[-768.393 263.663 133.325]"
+		"look" "[-894.809 287.364 -108.569]"
 	}
 }
 cordon
