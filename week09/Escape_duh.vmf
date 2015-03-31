@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "70"
+	"mapversion" "72"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "70"
+	"mapversion" "72"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3099,6 +3099,8 @@ entity
 		"OnFullyClosed" "door,Lock,,0,-1"
 		"OnOpen" "1,Lock,,0,-1"
 		"OnOpen" "5,Lock,,0,-1"
+		"OnOpen" "endingFade,Fade,,0,-1"
+		"OnOpen" "endingConsoleCommand,Command,disconnect,0.3,-1"
 	}
 	solid
 	{
@@ -4198,6 +4200,38 @@ entity
 		"logicalpos" "[0 9000]"
 	}
 }
+entity
+{
+	"id" "6930"
+	"classname" "env_fade"
+	"duration" "1"
+	"renderamt" "255"
+	"rendercolor" "0 0 0"
+	"spawnflags" "8"
+	"targetname" "endingFade"
+	"origin" "-713.72 45.3094 265"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6988"
+	"classname" "point_clientcommand"
+	"targetname" "endingConsoleCommand"
+	"origin" "-738.21 35.6005 265"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "2"
@@ -4213,8 +4247,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-751.701 154.422 362.985]"
-		"look" "[-801.713 -37.8539 329.383]"
+		"position" "[-721.916 268.932 382.997]"
+		"look" "[-771.928 76.6556 349.395]"
 	}
 }
 cordon
